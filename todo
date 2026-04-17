@@ -1,0 +1,16 @@
+[ ] Gestion de Catalogue
+    [ ] Affichage Dynamique des livres (Table ou Grille)
+        Bar de Recherche 
+            Input
+            Select
+        Champs a afficher :
+            Titre Auteur Annee Statut
+    [ ] Fiche detaillee :
+        Image
+        Titre
+        Description
+        Resumee Complet
+        Historique d'Emprunt (Dernier a avoir emprunter)
+
+
+
