@@ -1,0 +1,396 @@
+ERROR - 2026-04-20 12:10:24 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Controllers/Livre.php(12): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#7 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-20 12:10:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Livre.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-20 12:11:34 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Controllers/Livre.php(12): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#7 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-20 12:11:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Livre.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-20 12:12:36 --> CodeIgniter\Exceptions\InvalidArgumentException: "default" is not a valid database connection group.
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/Config.php on line 70.
+ 1 SYSTEMPATH/Model.php(150): CodeIgniter\Database\Config::connect()
+ 2 APPPATH/Controllers/Livre.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-20 12:14:33 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Controllers/Livre.php(12): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#7 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-20 12:14:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Livre.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-20 12:15:16 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Controllers/Livre.php(12): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#7 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-20 12:15:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Livre.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-20 12:16:59 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+#3 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#4 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#5 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#7 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#8 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#9 {main}
+CRITICAL - 2026-04-20 12:16:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-20 12:24:28 --> ErrorException: Constant expression contains invalid operations
+[Method: GET, Route: livres]
+in APPPATH/Config/Database.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-20 12:26:26 --> ErrorException: Constant expression contains invalid operations
+[Method: GET, Route: livres]
+in APPPATH/Config/Database.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2026-04-20 12:28:14 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: connection to server at &quot;localhost&quot; (127.0.0.1), port 5432 failed: FATAL:  la base de données « Bibliotheque » n'existe pas in /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(78): pg_connect()
+#2 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#3 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+#5 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#6 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2026-04-20 12:28:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: connection to server at &quot;localhost&quot; (127.0.0.1), port 5432 failed: FATAL:  la base de données « Bibliotheque » n'existe pas
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-20 12:28:50 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: connection to server at &quot;localhost&quot; (127.0.0.1), port 5432 failed: FATAL:  la base de données « Bibliotheque » n'existe pas in /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(78): pg_connect()
+#2 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#3 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+#5 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#6 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2026-04-20 12:28:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: connection to server at &quot;localhost&quot; (127.0.0.1), port 5432 failed: FATAL:  la base de données « Bibliotheque » n'existe pas
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-20 12:29:45 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: connection to server at &quot;localhost&quot; (127.0.0.1), port 5432 failed: FATAL:  la base de données « Bibliotheque » n'existe pas in /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(78): pg_connect()
+#2 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#3 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+#5 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#6 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2026-04-20 12:29:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: connection to server at &quot;localhost&quot; (127.0.0.1), port 5432 failed: FATAL:  la base de données « Bibliotheque » n'existe pas
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-20 12:30:03 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: connection to server at &quot;localhost&quot; (127.0.0.1), port 5432 failed: FATAL:  la base de données « Bibliotheque » n'existe pas in /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(78): pg_connect()
+#2 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#3 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+#5 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#6 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2026-04-20 12:30:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: connection to server at &quot;localhost&quot; (127.0.0.1), port 5432 failed: FATAL:  la base de données « Bibliotheque » n'existe pas
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-20 12:31:38 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: connection to server at &quot;localhost&quot; (127.0.0.1), port 5432 failed: FATAL:  la base de données « Bibliotheque » n'existe pas in /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(78): pg_connect()
+#2 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#3 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+#5 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#6 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2026-04-20 12:31:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: connection to server at &quot;localhost&quot; (127.0.0.1), port 5432 failed: FATAL:  la base de données « Bibliotheque » n'existe pas
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-20 12:31:55 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: connection to server at &quot;localhost&quot; (127.0.0.1), port 5432 failed: FATAL:  la base de données « Bibliotheque » n'existe pas in /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(78): pg_connect()
+#2 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#3 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+#5 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#6 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2026-04-20 12:31:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: connection to server at &quot;localhost&quot; (127.0.0.1), port 5432 failed: FATAL:  la base de données « Bibliotheque » n'existe pas
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/Postgre/Connection.php(181): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Livre.php(12): CodeIgniter\Database\Postgre\Connection->getVersion()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-20 13:39:09 --> ErrorException: Undefined variable $step
+[Method: GET, Route: livres]
+in APPPATH/Models/LivreModel.php on line 53.
+ 1 APPPATH/Models/LivreModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Livre.php(19): App\Models\LivreModel->getLivres()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-20 13:39:10 --> ErrorException: Undefined variable $step
+[Method: GET, Route: livres]
+in APPPATH/Models/LivreModel.php on line 53.
+ 1 APPPATH/Models/LivreModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Livre.php(19): App\Models\LivreModel->getLivres()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-20 13:39:11 --> ErrorException: Undefined variable $step
+[Method: GET, Route: livres]
+in APPPATH/Models/LivreModel.php on line 53.
+ 1 APPPATH/Models/LivreModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Livre.php(19): App\Models\LivreModel->getLivres()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-20 13:39:11 --> ErrorException: Undefined variable $step
+[Method: GET, Route: livres]
+in APPPATH/Models/LivreModel.php on line 53.
+ 1 APPPATH/Models/LivreModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Livre.php(19): App\Models\LivreModel->getLivres()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-20 13:39:11 --> ErrorException: Undefined variable $step
+[Method: GET, Route: livres]
+in APPPATH/Models/LivreModel.php on line 53.
+ 1 APPPATH/Models/LivreModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Livre.php(19): App\Models\LivreModel->getLivres()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-20 13:39:11 --> ErrorException: Undefined variable $step
+[Method: GET, Route: livres]
+in APPPATH/Models/LivreModel.php on line 53.
+ 1 APPPATH/Models/LivreModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Livre.php(19): App\Models\LivreModel->getLivres()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-20 13:39:43 --> ErrorException: Undefined variable $step
+[Method: GET, Route: livres]
+in APPPATH/Models/LivreModel.php on line 53.
+ 1 APPPATH/Models/LivreModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Livre.php(19): App\Models\LivreModel->getLivres()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()

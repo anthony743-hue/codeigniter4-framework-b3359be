@@ -25,11 +25,11 @@ class Database extends Config
      * @var array<string, mixed>
      */
     public array $default = [
-        'DSN' => 'Postgre://postgres:postgres@localhost:5432/Bibliotheque?charset=utf8&connect_timeout=5&sslmode=require',        
+        'DSN' => 'Postgre://postgres:postgres@localhost:5432/bibliotheque?charset=utf8&connect_timeout=5&sslmode=require',        
         'hostname'     => 'localhost',
         'username'     => 'postgres',
         'password'     => 'postgres',
-        'database'     => 'Bibliotheque',
+        'database'     => 'bibliotheque',
         'DBDriver'     => 'Postgre',
         'DBPrefix'     => '',
         'pConnect'     => false,

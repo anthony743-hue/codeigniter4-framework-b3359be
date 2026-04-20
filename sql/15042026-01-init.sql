@@ -50,6 +50,10 @@ CREATE TABLE livre (
     status_id INTEGER NOT NULL REFERENCES status(id) ON DELETE RESTRICT
 );
 
+ALTER TABLE livre ADD COLUMN nom_fichier_couverture TEXT;
+ALTER TABLE livre ADD COLUMN date_creation TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+ALTER TABLE livre ADD COLUMN date_modification TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+
 -- Indices pour optimiser les recherches
 CREATE INDEX idx_livre_isbn ON livre(isbn);
 CREATE INDEX idx_livre_titre ON livre(titre);
@@ -96,6 +100,7 @@ CREATE TABLE emprunt (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+SELECT * FROM emprunt WHERE livre_id = 1 ORDER BY date_emprunt DESC LIMIT 1;
 
 -- Indices pour optimiser les requêtes
 CREATE INDEX idx_emprunt_livre_id ON emprunt(livre_id);
