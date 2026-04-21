@@ -25,12 +25,12 @@ class Database extends Config
      * @var array<string, mixed>
      */
     public array $default = [
-        'DSN' => 'Postgre://postgres:postgres@localhost:5432/bibliotheque?charset=utf8&connect_timeout=5&sslmode=require',        
-        'hostname'     => 'localhost',
-        'username'     => 'postgres',
-        'password'     => 'postgres',
+        'DSN'          => '',
+        'hostname'     => '127.0.0.1',
+        'username'     => 'root',
+        'password'     => '',
         'database'     => 'bibliotheque',
-        'DBDriver'     => 'Postgre',
+        'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
         'DBDebug'      => true,
@@ -41,7 +41,7 @@ class Database extends Config
         'compress'     => false,
         'strictOn'     => false,
         'failover'     => [],
-        'port'         => 5432,
+        'port'         => 3306,
         'numberNative' => false,
         'foundRows'    => false,
         'dateFormat'   => [

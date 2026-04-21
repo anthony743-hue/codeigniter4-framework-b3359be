@@ -1,0 +1,797 @@
+CRITICAL - 2026-04-21 11:57:58 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Controllers/Livre.php on line 45.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:10:43 --> Error: Class "App\Controllers\CategorieModel" not found
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Controllers/Livre.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:12:46 --> Error: Class "App\Controllers\CategorieModel" not found
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Controllers/Livre.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:12:47 --> Error: Class "App\Controllers\CategorieModel" not found
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Controllers/Livre.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:12:47 --> Error: Class "App\Controllers\CategorieModel" not found
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Controllers/Livre.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:12:47 --> Error: Class "App\Controllers\CategorieModel" not found
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Controllers/Livre.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:13:11 --> ErrorException: Undefined property: App\Controllers\Livre::$statusModel
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Controllers/Livre.php on line 51.
+ 1 APPPATH/Controllers/Livre.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:13:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "livres/detailled.php"
+[Method: GET, Route: livres/detail/1]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Livre.php(68): view()
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:17:57 --> ErrorException: Attempt to read property "nom" on array
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 63.
+ 1 APPPATH/Views/livre/detailled.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:17:58 --> ErrorException: Attempt to read property "nom" on array
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 63.
+ 1 APPPATH/Views/livre/detailled.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:20:21 --> TypeError: pg_fetch_object(): Argument #3 ($class) must be a valid class name, App\Entities\Livre given
+[Method: GET, Route: livres/detail/1]
+in SYSTEMPATH/Database/Postgre/Result.php on line 122.
+ 1 SYSTEMPATH/Database/Postgre/Result.php(122): pg_fetch_object()
+ 2 SYSTEMPATH/Database/BaseResult.php(157): CodeIgniter\Database\Postgre\Result->fetchObject()
+ 3 SYSTEMPATH/Database/BaseResult.php(112): CodeIgniter\Database\BaseResult->getCustomResultObject()
+ 4 SYSTEMPATH/Database/BaseResult.php(395): CodeIgniter\Database\BaseResult->getResult()
+ 5 SYSTEMPATH/Model.php(193): CodeIgniter\Database\BaseResult->getFirstRow()
+ 6 SYSTEMPATH/BaseModel.php(615): CodeIgniter\Model->doFind()
+ 7 APPPATH/Controllers/Livre.php(45): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:20:58 --> ErrorException: Attempt to read property "nom" on array
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 63.
+ 1 APPPATH/Views/livre/detailled.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:21:44 --> ErrorException: Attempt to read property "nom" on array
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 63.
+ 1 APPPATH/Views/livre/detailled.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:22:58 --> ErrorException: Undefined property: stdClass::$isDisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 83.
+ 1 APPPATH/Views/livre/detailled.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:24:20 --> ErrorException: Undefined property: stdClass::$isDisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 83.
+ 1 APPPATH/Views/livre/detailled.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:26:19 --> ErrorException: Undefined property: stdClass::$isDisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 66.
+ 1 APPPATH/Views/livre/detailled.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:28:55 --> ErrorException: Undefined property: stdClass::$isDisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 66.
+ 1 APPPATH/Views/livre/detailled.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:29:53 --> ErrorException: Undefined property: stdClass::$isDisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 68.
+ 1 APPPATH/Views/livre/detailled.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:30:09 --> ErrorException: Undefined property: stdClass::$isDisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 73.
+ 1 APPPATH/Views/livre/detailled.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:30:21 --> ErrorException: Undefined property: stdClass::$isDisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 68.
+ 1 APPPATH/Views/livre/detailled.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(68): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:32:25 --> ErrorException: Attempt to read property "date_publication" on array
+[Method: GET, Route: livres]
+in APPPATH/Views/livre/list.php on line 28.
+ 1 APPPATH/Views/livre/list.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/list.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-04-21 12:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 12:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 12:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-21 12:45:58 --> Error: Call to undefined method stdClass::getAnneePublication()
+[Method: GET, Route: livres]
+in APPPATH/Views/livre/list.php on line 85.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Livre.php(44): view()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:48:20 --> Error: Class "App\Controllers\CategorieModel" not found
+[Method: GET, Route: livres]
+in APPPATH/Controllers/Livre.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:48:21 --> Error: Class "App\Controllers\CategorieModel" not found
+[Method: GET, Route: livres]
+in APPPATH/Controllers/Livre.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:48:21 --> Error: Class "App\Controllers\CategorieModel" not found
+[Method: GET, Route: livres]
+in APPPATH/Controllers/Livre.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:48:21 --> Error: Class "App\Controllers\CategorieModel" not found
+[Method: GET, Route: livres]
+in APPPATH/Controllers/Livre.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:48:21 --> Error: Class "App\Controllers\CategorieModel" not found
+[Method: GET, Route: livres]
+in APPPATH/Controllers/Livre.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:49:07 --> Error: Call to undefined method stdClass::getAnneePublication()
+[Method: GET, Route: livres]
+in APPPATH/Views/livre/list.php on line 85.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Livre.php(45): view()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:50:06 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: livres]
+in SYSTEMPATH/View/View.php on line 444.
+ 1 APPPATH/Views/livre/list.php(185): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/list.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(45): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:50:14 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: livres]
+in SYSTEMPATH/View/View.php on line 444.
+ 1 APPPATH/Views/livre/list.php(184): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/list.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(45): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-04-21 12:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 12:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 12:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 12:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 12:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 12:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 12:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 12:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 12:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 12:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 12:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-21 13:00:21 --> CodeIgniter\Exceptions\LogicException: No validation rules for the placeholder: "id". You must set the validation rules for the field. See <https://codeigniter4.github.io/userguide/libraries/validation.html#validation-placeholders>.
+[Method: POST, Route: livres/retour/2]
+in SYSTEMPATH/Validation/Validation.php on line 812.
+ 1 SYSTEMPATH/Validation/Validation.php(155): CodeIgniter\Validation\Validation->fillPlaceholders()
+ 2 SYSTEMPATH/BaseModel.php(1615): CodeIgniter\Validation\Validation->run()
+ 3 SYSTEMPATH/BaseModel.php(1046): CodeIgniter\BaseModel->validate()
+ 4 SYSTEMPATH/Model.php(709): CodeIgniter\BaseModel->update()
+ 5 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->update()
+ 6 APPPATH/Controllers/Livre.php(196): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->retour()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-04-21 13:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-21 13:11:18 --> CodeIgniter\Exceptions\LogicException: No validation rules for the placeholder: "id". You must set the validation rules for the field. See <https://codeigniter4.github.io/userguide/libraries/validation.html#validation-placeholders>.
+[Method: POST, Route: livres/pret/1]
+in SYSTEMPATH/Validation/Validation.php on line 812.
+ 1 SYSTEMPATH/Validation/Validation.php(155): CodeIgniter\Validation\Validation->fillPlaceholders()
+ 2 SYSTEMPATH/BaseModel.php(1615): CodeIgniter\Validation\Validation->run()
+ 3 SYSTEMPATH/BaseModel.php(1046): CodeIgniter\BaseModel->validate()
+ 4 SYSTEMPATH/Model.php(709): CodeIgniter\BaseModel->update()
+ 5 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->update()
+ 6 APPPATH/Controllers/Livre.php(163): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->pret()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 13:20:20 --> CodeIgniter\Exceptions\LogicException: The placeholder field cannot use placeholder: id
+[Method: POST, Route: livres/pret/1]
+in SYSTEMPATH/Validation/Validation.php on line 822.
+ 1 SYSTEMPATH/Validation/Validation.php(155): CodeIgniter\Validation\Validation->fillPlaceholders()
+ 2 SYSTEMPATH/BaseModel.php(1615): CodeIgniter\Validation\Validation->run()
+ 3 SYSTEMPATH/BaseModel.php(1046): CodeIgniter\BaseModel->validate()
+ 4 SYSTEMPATH/Model.php(709): CodeIgniter\BaseModel->update()
+ 5 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->update()
+ 6 APPPATH/Controllers/Livre.php(163): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->pret()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 13:20:42 --> CodeIgniter\Exceptions\LogicException: No validation rules for the placeholder: "id". You must set the validation rules for the field. See <https://codeigniter4.github.io/userguide/libraries/validation.html#validation-placeholders>.
+[Method: POST, Route: livres/pret/1]
+in SYSTEMPATH/Validation/Validation.php on line 812.
+ 1 SYSTEMPATH/Validation/Validation.php(155): CodeIgniter\Validation\Validation->fillPlaceholders()
+ 2 SYSTEMPATH/BaseModel.php(1615): CodeIgniter\Validation\Validation->run()
+ 3 SYSTEMPATH/BaseModel.php(1046): CodeIgniter\BaseModel->validate()
+ 4 SYSTEMPATH/Model.php(709): CodeIgniter\BaseModel->update()
+ 5 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->update()
+ 6 APPPATH/Controllers/Livre.php(163): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->pret()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-04-21 13:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-21 13:24:53 --> ErrorException: Undefined property: stdClass::$isdisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 59.
+ 1 APPPATH/Views/livre/detailled.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(77): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 13:26:06 --> ErrorException: Undefined property: stdClass::$isdisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 59.
+ 1 APPPATH/Views/livre/detailled.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(77): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 13:26:07 --> ErrorException: Undefined property: stdClass::$isdisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 59.
+ 1 APPPATH/Views/livre/detailled.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(77): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 13:26:07 --> ErrorException: Undefined property: stdClass::$isdisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 59.
+ 1 APPPATH/Views/livre/detailled.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(77): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 13:26:07 --> ErrorException: Undefined property: stdClass::$isdisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 59.
+ 1 APPPATH/Views/livre/detailled.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(77): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-04-21 13:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-21 13:26:13 --> ErrorException: Undefined property: stdClass::$isdisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 59.
+ 1 APPPATH/Views/livre/detailled.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(77): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 13:26:54 --> ErrorException: Undefined property: stdClass::$isdisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 60.
+ 1 APPPATH/Views/livre/detailled.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(77): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 13:27:21 --> ErrorException: Undefined property: stdClass::$isDisponible
+[Method: GET, Route: livres/detail/1]
+in APPPATH/Views/livre/detailled.php on line 60.
+ 1 APPPATH/Views/livre/detailled.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/L2/S4/Rojo/codeigniter4-framework-b3359be/app/Views/livre/detailled.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Livre.php(77): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->getDetailled()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-04-21 13:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:48:02 --> CSRF token verified.
+DEBUG - 2026-04-21 13:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 14:00:18 --> CSRF token verified.
+DEBUG - 2026-04-21 14:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 14:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 14:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 14:01:06 --> CSRF token verified.
+DEBUG - 2026-04-21 14:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 14:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-21 14:04:09 --> Table 'bibliotheque.livre' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/LivreModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Livre.php(40): App\Models\LivreModel->getLivres()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 14:04:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'bibliotheque.livre' doesn't exist
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 865.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/LivreModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Livre.php(40): App\Models\LivreModel->getLivres()
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 14:04:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'bibliotheque.livre' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/LivreModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Livre.php(40): App\Models\LivreModel->getLivres()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 14:04:09 --> [Caused by] mysqli_sql_exception: Table 'bibliotheque.livre' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/LivreModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Livre.php(40): App\Models\LivreModel->getLivres()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-21 14:04:10 --> Table 'bibliotheque.livre' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/LivreModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Livre.php(40): App\Models\LivreModel->getLivres()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 14:04:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'bibliotheque.livre' doesn't exist
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 865.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/LivreModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Livre.php(40): App\Models\LivreModel->getLivres()
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 14:04:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'bibliotheque.livre' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/LivreModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Livre.php(40): App\Models\LivreModel->getLivres()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 14:04:10 --> [Caused by] mysqli_sql_exception: Table 'bibliotheque.livre' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/LivreModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Livre.php(40): App\Models\LivreModel->getLivres()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-21 14:04:11 --> Table 'bibliotheque.livre' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/LivreModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Livre.php(40): App\Models\LivreModel->getLivres()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 14:04:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'bibliotheque.livre' doesn't exist
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 865.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/LivreModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Livre.php(40): App\Models\LivreModel->getLivres()
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 14:04:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'bibliotheque.livre' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/LivreModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Livre.php(40): App\Models\LivreModel->getLivres()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 14:04:11 --> [Caused by] mysqli_sql_exception: Table 'bibliotheque.livre' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/LivreModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Livre.php(40): App\Models\LivreModel->getLivres()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-21 14:05:01 --> Table 'bibliotheque.categorie' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/Livre.php(41): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 14:05:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'bibliotheque.categorie' doesn't exist
+[Method: GET, Route: livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 865.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Livre.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 14:05:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'bibliotheque.categorie' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Controllers/Livre.php(41): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 14:05:01 --> [Caused by] mysqli_sql_exception: Table 'bibliotheque.categorie' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/Livre.php(41): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-04-21 14:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

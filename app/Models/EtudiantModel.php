@@ -6,7 +6,12 @@ use CodeIgniter\Model;
 
 class EtudiantModel extends Model
 {
-    protected $table = 'etudiants';
+    protected $table = 'utilisateur';
     protected $primaryKey = 'id';
-    
+    protected $useAutoIncrement = true;
+    protected $returnType = 'array';
+    protected $allowedFields = ['nom', 'prenom', 'email', 'telephone'];
+    protected $useTimestamps = true;
+    protected $createdField = 'created_at';
+    protected $updatedField = 'updated_at';
 }
