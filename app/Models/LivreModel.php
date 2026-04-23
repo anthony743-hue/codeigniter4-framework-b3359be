@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class LivreModel extends Model
 {
-    protected $table            = 'livres';
+    protected $table            = 'livre';
     protected $primaryKey       = 'id';
     protected $allowedFields    = ['isbn', 'titre', 'auteur', 'categorie_id', 'resume', 'status_id', 'date_publication', 'isDisponible', 'image_couverture', 'nom_fichier_couverture'];
     

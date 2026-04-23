@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class EmpruntModel extends Model
 {
-    protected $table            = 'emprunts';
+    protected $table            = 'emprunt';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
