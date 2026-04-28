@@ -1,0 +1,82 @@
+/* Suppression des bordures inutiles et focus sur la typographie */
+body {
+    background-color: #fcfcfc;
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #2d3436;
+}
+
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+}
+
+.transition-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05) !important;
+}
+
+.btn-primary {
+    background-color: #000;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+/* Style spécifique pour le badge de statut */
+.text-success { color: #27ae60 !important; }
+.text-danger { color: #e74c3c !important; }
+
+/* Style par défaut (Grille) */
+.transition-hover:hover { transform: translateY(-3px); transition: 0.2s; }
+
+/* Mode Tableau (Force les colonnes à prendre 100% de large) */
+.view-table .book-item {
+    width: 100% !important;
+    margin-bottom: 10px;
+}
+
+.view-table .card-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+
+.view-table .card-title { font-size: 1rem; margin: 0 !important; flex: 2; }
+.view-table .book-author { margin: 0 !important; flex: 1; }
+.view-table .btn-sm { width: auto !important; padding: 5px 20px; }
+
+/* Masquer/Afficher selon le mode */
+.view-grid .d-grid-none { display: inline; }
+.view-table .d-grid-none { display: none; }
+
+/* Grille : On agrandit les cellules pour un rendu plus aéré */
+#gridView .card {
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#gridView .h4 {
+    font-size: 1.5rem; /* Titre plus grand en mode grille */
+}
+
+/* Tableau : Lignes propres */
+#tableView .table td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.transition-hover:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease;
+}
