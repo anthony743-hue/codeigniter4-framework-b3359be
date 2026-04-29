@@ -57,14 +57,14 @@ var_dump($livre);
             </div>
             <div class="col-6">
                 <small class="text-muted d-block">Statut</small>
-                <!-- <strong class="<?= $livre->isdisponible ? 'text-success' : 'text-danger' ?>">
-                    <?= $livre->isdisponible ? 'Disponible immédiatement' : 'Actuellement emprunté' ?>
+                <!-- <strong class="<?= $livre->isDisponible ? 'text-success' : 'text-danger' ?>">
+                    <?= $livre->isDisponible ? 'Disponible immédiatement' : 'Actuellement emprunté' ?>
                 </strong> -->
             </div>
         </div>
 
         <div class="d-grid gap-2 d-md-flex">
-            <?php if ($livre->isdisponible): ?>
+            <?php if ($livre->isDisponible): ?>
                 <button class="btn btn-primary px-5 py-2">Emprunter</button>
             <?php else: ?>
                 <button class="btn btn-outline-secondary px-5 py-2" disabled>Indisponible</button>

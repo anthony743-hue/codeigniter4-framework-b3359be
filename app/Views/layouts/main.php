@@ -11,7 +11,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
         <div class="container">
-            <a class="navbar-brand" href="<?= base_url('/') ?>">BiblioManager</a>
+            <a class="navbar-brand" href="<?= base_url('/') ?>">BiblioManager</a>            
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">

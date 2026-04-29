@@ -50,12 +50,14 @@ class LivreModel extends Model
     public function getLivres($title = '', $categorie = '', $page = 1, $step = 10)
     {
         $builder = $this->builder();
-        // if ($title == '') {
-        //     die('Aucun titre fourni, affichage de tous les livres.');    
-        // }
-        // $builder->like('titre', $title);
         if ($categorie) {
             $builder->where('categorie_id', $categorie);
+        }
+        if($title){
+            $builder->groupStart()
+                    ->like('titre', $title)
+                    ->orLike('auteur', $title)
+                    ->groupEnd();
         }
         $offset = ($page - 1) * $step;
         return $builder->get($step, $offset)->getResultObject();

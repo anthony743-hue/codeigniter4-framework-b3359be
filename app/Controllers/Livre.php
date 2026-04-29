@@ -84,7 +84,7 @@ class Livre extends BaseController
         
         if ($request->getMethod() === 'post') {
             $data = $request->getPost();
-            $date_publication = $data['date_publication'] ?? '';
+            $date_publication = $data['date_publication'] ?? now()->toDateString();
             $livreModel = new LivreModel();
 
             $dt['errors'] = [];
@@ -96,6 +96,10 @@ class Livre extends BaseController
 
             // Gestion de l'upload d'image
             $image = $request->getFile('image_couverture');
+            if(! $image){
+                $dt['errors']['image_couverture'] = 'Aucun fichier d\'image téléchargé.';
+            }
+
             if ($image && $image->isValid()) {
                 // Vérifier le type de fichier
                 $allowedTypes = ['image/jpeg', 'image/png', 'image/webp'];
@@ -111,7 +115,7 @@ class Livre extends BaseController
                 // Si pas d'erreur, déplacer le fichier
                 if (empty($dt['errors']['image_couverture'])) {
                     $newName = $image->getRandomName();
-                    $image->move(ROOTPATH . 'public/uploads/', $newName);
+                    $image->move(ROOTPATH . 'public/uploads/', $newName, true);
                     $data['nom_fichier_couverture'] = $newName;
                 }
             } elseif ($image && !$image->isValid()) {

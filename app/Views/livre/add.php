@@ -38,7 +38,7 @@ Ajouter un livre
                     <div class="mb-3">
                         <label for="titre" class="form-label">Titre *</label>
                         <input type="text" class="form-control <?= isset($errors['titre']) ? 'is-invalid' : '' ?>"
-                               id="titre" name="titre" value="<?= old('titre') ?>" required>
+                               id="titre" name="titre" value="<?= old('titre') ?>">
                         <?php if (isset($errors['titre'])): ?>
                             <div class="invalid-feedback"><?= esc($errors['titre']) ?></div>
                         <?php endif; ?>
@@ -47,7 +47,7 @@ Ajouter un livre
                     <div class="mb-3">
                         <label for="auteur" class="form-label">Auteur *</label>
                         <input type="text" class="form-control <?= isset($errors['auteur']) ? 'is-invalid' : '' ?>"
-                               id="auteur" name="auteur" value="<?= old('auteur') ?>" required>
+                               id="auteur" name="auteur" value="<?= old('auteur') ?>">
                         <?php if (isset($errors['auteur'])): ?>
                             <div class="invalid-feedback"><?= esc($errors['auteur']) ?></div>
                         <?php endif; ?>
@@ -56,7 +56,7 @@ Ajouter un livre
                     <div class="mb-3">
                         <label for="isbn" class="form-label">ISBN *</label>
                         <input type="text" class="form-control <?= isset($errors['isbn']) ? 'is-invalid' : '' ?>"
-                               id="isbn" name="isbn" value="<?= old('isbn') ?>" required>
+                               id="isbn" name="isbn" value="<?= old('isbn') ?>">
                         <?php if (isset($errors['isbn'])): ?>
                             <div class="invalid-feedback"><?= esc($errors['isbn']) ?></div>
                         <?php endif; ?>
@@ -65,7 +65,7 @@ Ajouter un livre
                     <div class="mb-3">
                         <label for="date_publication" class="form-label">Date de publication *</label>
                         <input type="date" class="form-control <?= isset($errors['date_publication']) ? 'is-invalid' : '' ?>"
-                               id="date_publication" name="date_publication" value="<?= old('date_publication') ?>" required>
+                               id="date_publication" name="date_publication" value="<?= old('date_publication') ?>">
                         <?php if (isset($errors['date_publication'])): ?>
                             <div class="invalid-feedback"><?= esc($errors['date_publication']) ?></div>
                         <?php endif; ?>

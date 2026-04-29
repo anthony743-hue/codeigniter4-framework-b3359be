@@ -28,7 +28,7 @@ Liste des livres
             <div class="card-body">
                 <h5 class="card-title mb-3">Rechercher des livres</h5>
                 <form method="get" action="<?= base_url('livres') ?>" class="row g-3">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <label for="title" class="form-label">Titre ou auteur</label>
                         <input type="text" class="form-control" id="title" name="title" 
                                value="<?= esc($title_filter) ?>" placeholder="Rechercher...">
@@ -39,12 +39,12 @@ Liste des livres
                             <option value="">Toutes les catégories</option>
                             <?php foreach ($categories as $cat): ?>
                                 <option value="<?= $cat->id ?>" <?= $categorie_filter == $cat->id ? 'selected' : '' ?>>
-                                    <?= esc($cat->nom) ?>
+                                    <?= esc($cat->nom);?>
                                 </option>
                             <?php endforeach; ?>
                         </select>
                     </div>
-                    <div class="col-md-2 d-flex align-items-end">
+                    <div class="col-md-4 d-flex align-items-end">
                         <button type="submit" class="btn btn-primary me-2">Rechercher</button>
                         <a href="<?= base_url('livres') ?>" class="btn btn-outline-secondary">Réinitialiser</a>
                     </div>
@@ -55,12 +55,11 @@ Liste des livres
 </div>
 
 <div class="row">
+    <div class="col-4 mb-3 position-relative" style="top: 0; right: 0;">
+        <a href="<?= base_url('livres/add') ?>" class="btn btn-success">Ajouter un livre</a>
+    </div>
     <div class="col-12">
         <div class="card">
-            <div class="card-header d-flex justify-content-between align-items-center">
-                <h5 class="mb-0">Liste des livres (<?= count($livres) ?>)</h5>
-                <a href="<?= base_url('livres/add') ?>" class="btn btn-success">Ajouter un livre</a>
-            </div>
             <div class="card-body p-0">
                 <div class="table-responsive">
                     <table class="table table-hover mb-0">
